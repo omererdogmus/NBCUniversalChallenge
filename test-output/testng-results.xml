@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoProject" duration-ms="3901" started-at="2021-02-15T20:38:09Z" finished-at="2021-02-15T20:38:13Z">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="3901" started-at="2021-02-15T20:38:09Z" finished-at="2021-02-15T20:38:13Z">
+      <class name="com.sample.test.demo.tests.DemoTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.sample.test.demo.tests.DemoTest@2f112965]" name="init" is-config="true" duration-ms="2500" started-at="2021-02-15T20:38:09Z" finished-at="2021-02-15T20:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test1()[pri:1, instance:com.sample.test.demo.tests.DemoTest@2f112965]" name="test1" duration-ms="880" started-at="2021-02-15T20:38:11Z" description="verify order" finished-at="2021-02-15T20:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:2, instance:com.sample.test.demo.tests.DemoTest@2f112965]" name="test2" duration-ms="352" started-at="2021-02-15T20:38:12Z" description="verify error message" finished-at="2021-02-15T20:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.test.demo.tests.DemoTest@2f112965]" name="tearDown" is-config="true" duration-ms="81" started-at="2021-02-15T20:38:12Z" finished-at="2021-02-15T20:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.test.demo.tests.DemoTest -->
+    </test> <!-- Tests -->
+  </suite> <!-- DemoProject -->
+</testng-results>
